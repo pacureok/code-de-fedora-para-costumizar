@@ -3,3 +3,6 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 sudo flatpak install flathub com.mattjakeman.ExtensionManager
 
 sudo dnf install gnome-tweaks
+
+
+sudo hostnamectl set-hostname "pacureOS"

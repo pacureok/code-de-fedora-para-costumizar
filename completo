@@ -1,0 +1,32 @@
+En la ventana de Extension Manager, haz clic en la pestaña "Explorar".
+
+Usa la barra de búsqueda y busca las siguientes extensiones:
+
+"Dash to Panel": Convierte la barra de arriba y el dock de abajo en una sola barra de tareas como la de Windows.
+
+"ArcMenu": Reemplaza el menú de aplicaciones por un menú de inicio similar al de Windows.
+
+Haz clic en el botón de "Instalar" para cada una de ellas.
+
+Paso 2: Configurar las Extensiones
+Una vez instaladas, ve a la pestaña "Instaladas" y activa las extensiones Dash to Panel y ArcMenu. Después, haz clic en el ícono de engranaje al lado de cada una para personalizarlas.
+
+Dash to Panel: Dentro de la configuración de Dash to Panel, busca las opciones de posición (ponla abajo), tamaño (ajusta el tamaño de los iconos), y comportamiento (para que se oculte automáticamente si lo deseas).
+
+ArcMenu: En la configuración de ArcMenu, puedes cambiar el ícono del menú de inicio por uno que se parezca al de Windows. También puedes ajustar el diseño del menú para que se muestre de forma similar.
+
+Paso 3: Agregar Temas, Íconos y Sonidos
+Para que la transformación sea completa, tienes que cambiar el tema visual y los íconos.
+
+Temas e íconos: En la pestaña "Explorar" del Extension Manager, puedes buscar temas y íconos. Busca palabras clave como "Windows", "Win10" o "Fluent". Cuando encuentres los que te gusten, instálalos. Luego ve a la aplicación de "Retoques de GNOME" (si no la tienes, instálala con sudo dnf install gnome-tweaks) para aplicarlos.
+
+Sonidos: Para cambiar los sonidos del sistema, necesitarás encontrar y descargar paquetes de sonido para Linux. Puedes buscar "GNOME sound themes" en sitios como GNOME Look. Luego, ve a la configuración del sistema para aplicar los sonidos.
+
+Paso 4: Agregar APIs y Aplicaciones (El desafío)
+Aquí es donde tu proyecto se vuelve más complejo.
+
+APIs (Interfaces de Programación de Aplicaciones): No "agregas APIs" al sistema operativo, sino que las usas en tus aplicaciones. Si quieres crear aplicaciones que se comuniquen con otros servicios (como un servicio de pago), necesitarás programar esas aplicaciones y utilizar librerías que te permitan interactuar con esas APIs.
+
+Apps personalizadas (.apc): Para tu formato de aplicación .apc, necesitarás programar un gestor de paquetes y un instalador. Esto es una tarea muy avanzada que implica crear un script o un programa que pueda reconocer, descomprimir e instalar tus aplicaciones personalizadas en el sistema de archivos de Fedora.
+
+Este proceso es un gran proyecto de programación que requerirá conocimientos en lenguajes como Python, C++ o Rust para crear estas herramientas desde cero. Empieza con la personalización visual, y una vez que domines esa parte, puedes pasar al siguiente nivel de programación.

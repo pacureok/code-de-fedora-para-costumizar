@@ -1,3 +1,4 @@
+
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 sudo flatpak install flathub com.mattjakeman.ExtensionManager
@@ -8,3 +9,5 @@ sudo dnf install gnome-tweaks
 sudo hostnamectl set-hostname "pacureOS"
 
 sudo cp /home/pacureok/Descargas/pacureos-logo.png /usr/share/plymouth/themes/spinner/fedora.png
+
+sudo plymouth-rebuild-initrd

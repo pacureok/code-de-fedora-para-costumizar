@@ -12,3 +12,5 @@ sudo cp /home/pacureok/Descargas/pacureos-logo.png /usr/share/plymouth/themes/sp
 
 
 sudo dracut -f
+
+sudo rm /usr/share/plymouth/themes/spinner/fedora.png

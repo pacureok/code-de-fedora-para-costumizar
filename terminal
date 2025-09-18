@@ -32,3 +32,5 @@ pacos cp /home/pacureok/Descargas/view-app-grid-symbolic.png /usr/share/icons/hi
 pacos flatpak install flathub org.gnome.Extensions.GSConnect
 
 Unite" o "Coverflow Alt-Tab
+.............
+pacos dnf install gnome-shell-extension-desktop-icons-ng

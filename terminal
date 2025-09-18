@@ -27,4 +27,4 @@ pacos dnf install winetricks
 pacos dnf search cursor-themes
 pacos dnf install capitaine-cursors
 pacos dnf install adwaita-cursor-theme
-pacos cp /home/pacureok/Descargas/view-app-grid-symbolic.png /usr/share/icons/Adwaita/scalable/apps/view-app-grid-symbolic.svg
+pacos cp /home/pacureok/Descargas/view-app-grid-symbolic.png /usr/share/icons/hicolor/scalable/apps/view-app-grid-symbolic.svg

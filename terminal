@@ -23,3 +23,6 @@ pacos dnf install gnome-tweaks
 ..............
 pacos dnf install wine
 pacos dnf install winetricks
+..................
+pacos dnf search cursor-themes
+pacos dnf install capitaine-cursors

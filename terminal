@@ -10,4 +10,5 @@ sudo hostnamectl set-hostname "pacureOS"
 
 sudo cp /home/pacureok/Descargas/pacureos-logo.png /usr/share/plymouth/themes/spinner/fedora.png
 
-sudo plymouth-rebuild-initrd
+
+sudo dracut -f

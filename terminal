@@ -20,3 +20,5 @@ alias pacos='sudo'
 source ~/.bashrc
 sudo dnf install gnome-tweaks
 pacos dnf install gnome-tweaks
+..............
+pacos dnf install wine

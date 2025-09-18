@@ -14,3 +14,9 @@ sudo cp /home/pacureok/Descargas/pacureos-logo.png /usr/share/plymouth/themes/sp
 sudo dracut -f
 
 sudo rm /usr/share/plymouth/themes/spinner/fedora.png
+.......,......... para sodo a otro cambien pacos
+gedit ~/.bashrc
+alias pacos='sudo'
+source ~/.bashrc
+sudo dnf install gnome-tweaks
+pacos dnf install gnome-tweaks

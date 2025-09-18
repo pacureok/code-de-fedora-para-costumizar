@@ -1,4 +1,4 @@
-
+ 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 sudo flatpak install flathub com.mattjakeman.ExtensionManager
@@ -30,3 +30,5 @@ pacos dnf install adwaita-cursor-theme
 pacos cp /home/pacureok/Descargas/view-app-grid-symbolic.png /usr/share/icons/hicolor/scalable/apps/view-app-grid-symbolic.svg
 ............
 pacos flatpak install flathub org.gnome.Extensions.GSConnect
+
+Unite" o "Coverflow Alt-Tab

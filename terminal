@@ -26,3 +26,4 @@ pacos dnf install winetricks
 ..................
 pacos dnf search cursor-themes
 pacos dnf install capitaine-cursors
+pacos dnf install adwaita-cursor-theme
